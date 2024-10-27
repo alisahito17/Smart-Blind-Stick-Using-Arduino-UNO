@@ -6,11 +6,13 @@ Features:
 Obstacle Detection: The stick detects nearby objects and obstacles.
 Water Detection: Alerts the user when there’s water on the ground.
 Vibration and Sound Alerts: Provides real-time feedback with vibrations and sounds, making it easy for users to respond quickly to hazards.
+
 Components Used:
 Ultrasonic Sensor: Detects obstacles in front of the user by measuring distance.
 Buzzer: Emits a sound to warn the user of obstacles.
 Vibration Motor: Vibrates to provide an additional alert for nearby hazards.
 Water Sensor: Detects water on the ground, sending a signal when water is present.
 Microcontroller (e.g., Arduino): The central unit controlling the device’s sensors and alerts.
+
 How It Works:
 The ultrasonic sensor continuously checks for objects in front of the stick. When it detects an obstacle within a set range, it activates the buzzer and the vibration motor. Similarly, if the water sensor detects moisture, it triggers an alert to notify the user
